@@ -14,7 +14,7 @@ def load_data():
 
     st.write("Files Available:")
     st.write(os.listdir())
-    return pd.read_excel("C:\Users\atchi\Downloads\ServeUP_data (2).xlsx")
+    return pd.read_excel("C:/Users/atchi/Downloads/ServeUP_data (2).xlsx")
 
     st.write("Root Files:")
     st.write(os.listdir())
@@ -23,7 +23,7 @@ def load_data():
     return pd.DataFrame()
 @st.cache_data
 def load_data():
-    return pd.read_excel("C:\Users\atchi\Desktop\Serve  UP")
+    return pd.read_excel("C:/Users/atchi/Desktop/Serve  UP")
 
 df = load_data()
 st.title("🍽️ JUPENTA ServeUp Market Intelligence Dashboard")
