@@ -15,12 +15,6 @@ def load_data():
     st.write("Files Available:")
     st.write(os.listdir())
     return pd.read_csv("ServeUp_cleaned_data.csv")
-import os
-@st.cache_data
-def load_data():
-
-    st.write("Current Folder:")
-    st.write(os.getcwd())
 
     st.write("Root Files:")
     st.write(os.listdir())
